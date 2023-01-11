@@ -2,7 +2,7 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
 APP_ID = os.environ.get("APP_ID",
-"17053751")ض
+"17053751")
 APP_HASH = os.environ.get("APP_HASH",
 "6f90a1382848f5cc767a623f898ab23f")
 BOT_USERNAME = os.environ.get("BOT_USERNAME",
