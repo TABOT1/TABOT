@@ -109,7 +109,7 @@ async def _(event):
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source fafthon : @FAFTHON**
+☆ Source fafthon : @bbppbd**
 ''')
 
 
