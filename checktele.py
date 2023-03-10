@@ -341,7 +341,7 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
          
-       await event.client.send_message(event.chat_id, f'''
+                await event.client.send_message(event.chat_id, f'''
  صدتلك يوزر (@{username}) !
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
